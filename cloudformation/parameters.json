@@ -1,0 +1,62 @@
+[
+  {
+    "ParameterKey": "EnvironmentName",
+    "ParameterValue": "prod"
+  },
+  {
+    "ParameterKey": "AlarmEmail",
+    "ParameterValue": "you@example.com"
+  },
+  {
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "t3.medium"
+  },
+  {
+    "ParameterKey": "MinSize",
+    "ParameterValue": "2"
+  },
+  {
+    "ParameterKey": "MaxSize",
+    "ParameterValue": "6"
+  },
+  {
+    "ParameterKey": "DesiredCapacity",
+    "ParameterValue": "2"
+  },
+  {
+    "ParameterKey": "TargetCpuUtilization",
+    "ParameterValue": "40"
+  },
+  {
+    "ParameterKey": "RdsInstanceClass",
+    "ParameterValue": "db.t3.medium"
+  },
+  {
+    "ParameterKey": "RdsMasterUsername",
+    "ParameterValue": "dbadmin"
+  },
+  {
+    "ParameterKey": "RdsMasterUserPassword",
+    "ParameterValue": "CHANGE_ME_strong_password_here"
+  },
+  {
+    "ParameterKey": "RdsAllocatedStorage",
+    "ParameterValue": "50"
+  },
+  {
+    "ParameterKey": "RdsDeletionProtection",
+    "ParameterValue": "true"
+  },
+  {
+    "ParameterKey": "EnableWaf",
+    "ParameterValue": "true"
+  },
+  {
+    "ParameterKey": "AlbCertificateArn",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "DomainName",
+    "ParameterValue": ""
+  }
+]

@@ -1,0 +1,21 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Local AWS CLI artifacts
+*.pem
+*.key
+credentials
+.env
+.env.*
+
+# CloudFormation packaging output
+packaged.yaml
+packaged.template
+
+# Logs & temp
+*.log
+tmp/
